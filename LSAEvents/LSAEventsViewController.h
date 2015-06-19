@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <JTCalendar.h>
+#import "LSAEventsDataProvider.h"
 
 @interface LSAEventsViewController : UIViewController <JTCalendarDataSource>
 
 @property (weak, nonatomic) IBOutlet JTCalendarMenuView *calendarMenuView;
 @property (weak, nonatomic) IBOutlet JTCalendarContentView *calendarContentView;
-@property (strong, nonatomic) JTCalendar *calendar;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) JTCalendar *calendar;
 
 @end
