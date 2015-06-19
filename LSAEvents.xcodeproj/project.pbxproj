@@ -16,6 +16,10 @@
 		D35744B71B3463410083D4E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35744B51B3463410083D4E4 /* LaunchScreen.xib */; };
 		D35744C31B3463410083D4E4 /* LSAEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744C21B3463410083D4E4 /* LSAEventsTests.m */; };
 		D35744CE1B3463F60083D4E4 /* LSAEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744CD1B3463F60083D4E4 /* LSAEventsViewController.m */; };
+		D35744DB1B3482B50083D4E4 /* LSAEventsDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744DA1B3482B50083D4E4 /* LSAEventsDataProvider.m */; };
+		D35744DE1B3484500083D4E4 /* LSAEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744DD1B3484500083D4E4 /* LSAEvent.m */; };
+		D35744E11B3484EB0083D4E4 /* LSAEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744E01B3484EB0083D4E4 /* LSAEventTableViewCell.m */; };
+		D35744E41B3486150083D4E4 /* LSAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D35744E31B3486150083D4E4 /* LSAUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 		D35744C21B3463410083D4E4 /* LSAEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAEventsTests.m; sourceTree = "<group>"; };
 		D35744CC1B3463F60083D4E4 /* LSAEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAEventsViewController.h; sourceTree = "<group>"; };
 		D35744CD1B3463F60083D4E4 /* LSAEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAEventsViewController.m; sourceTree = "<group>"; };
+		D35744D91B3482B50083D4E4 /* LSAEventsDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAEventsDataProvider.h; sourceTree = "<group>"; };
+		D35744DA1B3482B50083D4E4 /* LSAEventsDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAEventsDataProvider.m; sourceTree = "<group>"; };
+		D35744DC1B3484500083D4E4 /* LSAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAEvent.h; sourceTree = "<group>"; };
+		D35744DD1B3484500083D4E4 /* LSAEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAEvent.m; sourceTree = "<group>"; };
+		D35744DF1B3484EB0083D4E4 /* LSAEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAEventTableViewCell.h; sourceTree = "<group>"; };
+		D35744E01B3484EB0083D4E4 /* LSAEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAEventTableViewCell.m; sourceTree = "<group>"; };
+		D35744E21B3486150083D4E4 /* LSAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAUtils.h; sourceTree = "<group>"; };
+		D35744E31B3486150083D4E4 /* LSAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,14 @@
 				D35744A61B3463410083D4E4 /* Supporting Files */,
 				D35744CC1B3463F60083D4E4 /* LSAEventsViewController.h */,
 				D35744CD1B3463F60083D4E4 /* LSAEventsViewController.m */,
+				D35744D91B3482B50083D4E4 /* LSAEventsDataProvider.h */,
+				D35744DA1B3482B50083D4E4 /* LSAEventsDataProvider.m */,
+				D35744DC1B3484500083D4E4 /* LSAEvent.h */,
+				D35744DD1B3484500083D4E4 /* LSAEvent.m */,
+				D35744DF1B3484EB0083D4E4 /* LSAEventTableViewCell.h */,
+				D35744E01B3484EB0083D4E4 /* LSAEventTableViewCell.m */,
+				D35744E21B3486150083D4E4 /* LSAUtils.h */,
+				D35744E31B3486150083D4E4 /* LSAUtils.m */,
 			);
 			path = LSAEvents;
 			sourceTree = "<group>";
@@ -287,6 +307,10 @@
 				D35744AF1B3463410083D4E4 /* ViewController.m in Sources */,
 				D35744AC1B3463410083D4E4 /* AppDelegate.m in Sources */,
 				D35744A91B3463410083D4E4 /* main.m in Sources */,
+				D35744DB1B3482B50083D4E4 /* LSAEventsDataProvider.m in Sources */,
+				D35744DE1B3484500083D4E4 /* LSAEvent.m in Sources */,
+				D35744E41B3486150083D4E4 /* LSAUtils.m in Sources */,
+				D35744E11B3484EB0083D4E4 /* LSAEventTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
