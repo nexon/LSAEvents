@@ -3,6 +3,7 @@
 
 target 'LSAEvents' do
   pod 'JTCalendar', '~> 1.1'
+  pod 'MBFaker'
 end
 
 target 'LSAEventsTests' do
